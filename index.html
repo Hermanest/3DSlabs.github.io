@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Безымянная страница</title>
+<link href="сайт.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.slideshow.min.js"></script>
+<script src="util.min.js"></script>
+<script src="carousel.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#SlideShow2").slideshow(
+   {
+      interval: 13000,
+      type: 'sequence',
+      effect: 'fade',
+      direction: '',
+      pagination: false,
+      effectlength: 3000
+   });
+   $("#SlideShow1").bootstrapcarousel({interval:10000, ride: true});
+});
+</script>
+</head>
+<body>
+<div id="PageHeader1" style="position:absolute;text-align:left;left:0px;top:0px;width:100%;height:41px;z-index:9;">
+<div id="wb_Image1" style="position:absolute;left:3px;top:6px;width:67px;height:29px;z-index:0;">
+<img src="images/Без имени-1.png" id="Image1" alt=""></div>
+</div>
+<div id="SlideShow2" style="position:absolute;left:0px;top:0px;width:1800px;height:562px;z-index:5;">
+<img class="image" src="images/Без имени-4.png" alt="" title="">
+<img class="image" src="images/4.png" style="display:none;" alt="" title="">
+</div>
+<div id="Layer1" style="position:absolute;text-align:left;left:0px;top:1700px;width:1800px;height:248px;z-index:6;">
+<a href="https://www.google.by/maps/place/ул.+Пролетарская+13,+Бобруйск/@53.141777,29.2247581,350m/" target="_blank">
+<picture id="wb_Picture1" style="position:absolute;left:25px;top:18px;width:224px;height:209px;z-index:1">
+<img src="images/Screenshot_3.png" id="Picture1" alt="">
+</picture>
+</a>
+<div id="wb_Text1" style="position:absolute;left:253px;top:0px;width:239px;height:110px;z-index:2;">
+<span style="color:#9C9C9C;font-family:Arial;font-size:15px;"><strong>Адрес:</strong><br>г.Бобруйск, ул.Пролетарская, д.13<br><strong>Контакты:</strong><br>Email: hermanest@mail.ru<br>Телефон: +375 (44) 538-27-10<br></span></div>
+<div id="wb_Text2" style="position:absolute;left:830px;top:201px;width:239px;height:16px;z-index:3;">
+<span style="color:#9C9C9C;font-family:Arial;font-size:15px;">copyright © 2020</span></div>
+</div>
+<div id="wb_SlideShow1" style="position:absolute;left:241px;top:138px;width:1555px;height:900px;visibility:hidden;z-index:7;">
+<div id="SlideShow1" class="carousel slide">
+<div class="carousel-inner">
+<div class="carousel-item active">
+<div class="thumbnails">
+<div class="thumbnail">
+<img class="image" src="images/3d-printed-hand3_1600.jpg" alt="" title="">
+</div>
+</div>
+</div>
+<div class="carousel-item">
+<div class="thumbnails">
+<div class="thumbnail">
+<img class="image" src="images/pr2.png" alt="" title="">
+</div>
+</div>
+</div>
+<div class="carousel-item">
+<div class="thumbnails">
+<div class="thumbnail">
+<img class="image" src="images/XXL.png" alt="" title="">
+</div>
+</div>
+</div>
+<div class="carousel-item">
+<div class="thumbnails">
+<div class="thumbnail">
+<img class="image" src="images/прикольная картинка.png" alt="" title="">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_Image2" style="position:absolute;left:25px;top:0px;width:510px;height:258px;z-index:8;">
+<img src="images/Без и1мени-1.png" id="Image2" alt=""></div>
+</body>
+</html>
